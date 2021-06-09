@@ -56,7 +56,11 @@ void crc(char data[], char key[], bool next = false)
     if(next){
         cout<<"CRC="<<rem<<"\nDataword="<<data;
         cout<<"\nREVISAR"<<endl;
-        crc(data,key);
+        char rec[20];
+        cout<<"Escriba la informacion recibida:";
+        cin>>rec;
+
+        crc(rec,key);
     }
     else{
         cout<<"Residuo="<<rem<<endl;

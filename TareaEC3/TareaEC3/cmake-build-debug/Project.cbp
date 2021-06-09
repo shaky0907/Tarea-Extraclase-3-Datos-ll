@@ -115,6 +115,50 @@
 					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\david\OneDrive\Documents\TEC\Datos 2\Tarea-Extraclase-3-Datos-ll\TareaEC3\TareaEC3\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="Checksum">
+				<Option output="C:/Users/david/OneDrive/Documents/TEC/Datos 2/Tarea-Extraclase-3-Datos-ll/TareaEC3/TareaEC3/cmake-build-debug/Checksum.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/david/OneDrive/Documents/TEC/Datos 2/Tarea-Extraclase-3-Datos-ll/TareaEC3/TareaEC3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\david\OneDrive\Documents\TEC\Datos 2\Tarea-Extraclase-3-Datos-ll\TareaEC3\TareaEC3\cmake-build-debug\Makefile&quot; VERBOSE=1 Checksum"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\david\OneDrive\Documents\TEC\Datos 2\Tarea-Extraclase-3-Datos-ll\TareaEC3\TareaEC3\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\david\OneDrive\Documents\TEC\Datos 2\Tarea-Extraclase-3-Datos-ll\TareaEC3\TareaEC3\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\david\OneDrive\Documents\TEC\Datos 2\Tarea-Extraclase-3-Datos-ll\TareaEC3\TareaEC3\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Checksum/fast">
+				<Option output="C:/Users/david/OneDrive/Documents/TEC/Datos 2/Tarea-Extraclase-3-Datos-ll/TareaEC3/TareaEC3/cmake-build-debug/Checksum.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/david/OneDrive/Documents/TEC/Datos 2/Tarea-Extraclase-3-Datos-ll/TareaEC3/TareaEC3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\david\OneDrive\Documents\TEC\Datos 2\Tarea-Extraclase-3-Datos-ll\TareaEC3\TareaEC3\cmake-build-debug\Makefile&quot; VERBOSE=1 Checksum/fast"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\david\OneDrive\Documents\TEC\Datos 2\Tarea-Extraclase-3-Datos-ll\TareaEC3\TareaEC3\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\david\OneDrive\Documents\TEC\Datos 2\Tarea-Extraclase-3-Datos-ll\TareaEC3\TareaEC3\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\david\OneDrive\Documents\TEC\Datos 2\Tarea-Extraclase-3-Datos-ll\TareaEC3\TareaEC3\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="C:/Users/david/OneDrive/Documents/TEC/Datos 2/Tarea-Extraclase-3-Datos-ll/TareaEC3/TareaEC3/cmake-build-debug"/>
 				<Option type="4"/>
@@ -128,6 +172,9 @@
 		</Build>
 		<Unit filename="C:/Users/david/OneDrive/Documents/TEC/Datos 2/Tarea-Extraclase-3-Datos-ll/TareaEC3/TareaEC3/CRCT.cpp">
 			<Option target="CRC"/>
+		</Unit>
+		<Unit filename="C:/Users/david/OneDrive/Documents/TEC/Datos 2/Tarea-Extraclase-3-Datos-ll/TareaEC3/TareaEC3/Checksum.cpp">
+			<Option target="Checksum"/>
 		</Unit>
 		<Unit filename="C:/Users/david/OneDrive/Documents/TEC/Datos 2/Tarea-Extraclase-3-Datos-ll/TareaEC3/TareaEC3/Hamming.cpp">
 			<Option target="Hamming"/>

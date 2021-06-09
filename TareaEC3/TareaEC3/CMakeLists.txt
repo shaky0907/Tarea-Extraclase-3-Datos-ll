@@ -6,5 +6,6 @@ cmake_minimum_required (VERSION 3.8)
 # Agregue un origen al ejecutable de este proyecto.
 add_executable (Hamming "Hamming.cpp")
 add_executable (CRC "CRCT.cpp")
+add_executable (Checksum "Checksum.cpp")
 
 # TODO: Agregue pruebas y destinos de instalación si es necesario.
